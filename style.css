@@ -1,0 +1,690 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* top fixed menu bar */
+
+.navbar{
+  list-style:none;
+  margin: 0;
+  padding: 4px;
+  margin-left: 0;
+  overflow: auto;
+  text-align:center;
+  top: 0;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  z-index: 999; /*add*/
+}
+
+.navbar li{
+  display:inline;
+}
+
+.navbar a{   /*navbar links*/
+  display:inline-block;
+  padding:10px;
+  width: 70px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #d9d9d9;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.fa {  /*icons color*/
+  color: #d9d9d9;
+  font-size:20px;
+}
+
+.fa:hover { /*icon color change*/
+  color: white;
+}
+
+
+.link:link {              /*class=link no underline*/
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.link:visited {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active {
+  text-decoration: underline;
+}
+
+
+#main-container {
+  margin-top: 50px;
+}
+
+
+#para-one {
+  background-color: #EFEFEF;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center; 
+}
+
+
+.linkone:link {              /*class=link no underline*/
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.linkone:visited {
+  text-decoration: none;
+}
+
+.linkone:hover {
+  text-decoration: underline;
+}
+
+.linkone:active {
+  text-decoration: underline;
+}
+
+
+.iphone12-container {  /* container for iPhone 12*/
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.iphone12-container .iphone12 {  /*set the size of the image*/
+  width: 1349px;
+  height: 600px;
+}
+
+.iphone12-container .text1-iphone12{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
+
+.iphone12-container .text2-iphone12{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 23%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.iphone12-container .text3-iphone12{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 30%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  color: grey;
+}
+
+.iphone12-container .text4-iphone12{  /*buy & learn more links*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 35%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+}
+
+
+.iphone12pro-container {  /* container for iPhone 12 Pro*/
+  background-color: black;
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.iphone12pro-container .iphone12pro {  /*set the size of the image*/
+  width: 1349px;
+  height: 600px;
+}
+
+.iphone12pro-container .text1-iphone12-pro{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.iphone12pro-container .text2-iphone12-pro{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 23%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.iphone12pro-container .text3-iphone12-pro{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 30%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  color: grey;
+}
+
+.iphone12pro-container .text4-iphone12-pro{  /*buy & learn more links*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 35%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+}
+
+
+.ipadpro-container {  /* container for iPad Pro*/
+  background-color: black;
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.ipadpro-container .ipadpro {  /*set the size of the image*/
+  width: 1349px;
+  height: 600px;
+}
+
+.ipadpro-container .text1-ipad-pro{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.ipadpro-container .text2-ipad-pro{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 23%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.ipadpro-container .text3-ipad-pro{  /*buy & learn more links*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 33%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+}
+
+
+.grid-container-1 { /*container for iMac & Collection*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+ }
+
+
+.grid-iMac {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.grid-iMac .iMac {  /*set the size of the image*/
+  width: 650px;
+  height: 600px;
+}
+
+.grid-iMac .text1-iMac{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.grid-iMac .text2-iMac{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 20%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+
+.grid-iMac .text3-iMac{ /*link*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 25%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+}
+
+
+.grid-collection {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+  background-color: black;
+}
+
+.grid-collection .collection {  /*set the size of the image*/
+  width: 650px;
+  height: 600px;
+}
+
+.grid-collection .text1-collection{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.grid-collection .text2-collection{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 20%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+
+.grid-collection .text3-collection{ /*link*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 25%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+}
+
+
+
+.grid-container-2 { /*container for watch & airtag*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+ }
+
+
+.grid-watch {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+  background-color: black;
+}
+
+.grid-watch .applewatch {  /*set the size of the image*/
+  width: 650px;
+  height: 600px;
+}
+
+.grid-watch .text1-watch{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.grid-watch .text2-watch{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 16%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  color: red;
+}
+
+.grid-watch .text3-watch{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 20%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+
+.grid-watch .text4-watch{ /*link*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 25%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+}
+
+
+
+.grid-airtag {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.grid-airtag .airtag {  /*set the size of the image*/
+  width: 650px;
+  height: 600px;
+}
+
+.grid-airtag .text1-airtag{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.grid-airtag .text2-airtag{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 20%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+
+.grid-airtag .text3-airtag{ /*link*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 25%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+}
+
+
+.grid-container-3 { /*container for appleone & appletv*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+ }
+
+.grid-appleone {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.grid-appleone .appleone {  /*set the size of the image*/
+  width: 650px;
+  height: 600px;
+}
+
+.grid-appleone .text1-appleone{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 10%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.grid-appleone .text2-appleone{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 18%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.grid-appleone .text3-appleone{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 22%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.grid-appleone .text4-appleone{ /*link learn more & try for free*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 28%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+}
+
+
+.grid-appletv {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.grid-appletv .appletv {  /*set the size of the image*/
+  width: 650px;
+  height: 600px;
+}
+
+.grid-appletv .text1-appletv{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 65%; /* Adjust this value to move the positioned div text up and down */
+  font-family: Arial,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.grid-appletv .text2-appletv{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 73%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.grid-appletv .text3-appletv{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 77%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.grid-appletv .text4-appletv{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 81%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+
+.grid-appletv .text5-appletv{  /*link learn more buy & try for free*/
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 88%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+
+.outer-grid-container-4{  /*grid-container 4*/
+  background-color: #EFEFEF;
+  padding: 10px;
+}
+
+.grid-header {      /*grid header attributes*/
+  grid-area: header;
+  font-size: 12px;
+  color: #767676;
+}
+
+.grid-container-4 {   /*grid items - header and 5 columns*/
+  display: grid;
+  grid-area: header;
+  grid-template-areas: 'header header header header header';
+  grid-template-columns: auto auto auto auto auto;
+  width: 70%;
+  margin: auto
+}
+
+.grid-footer {      /*grid footer attributes*/
+  grid-area: footer;
+  font-size: 12px;
+  color: #767676;
+}
+
+.grid-footer-container {      /*footer items*/
+  display: grid;
+  grid-area: footer;
+  grid-template-areas: 'footer footer footer footer footer';
+  width: 70%;
+  margin: auto;
+}
+
+
+.grid-item li {
+  list-style-type: none;
+  line-height: 1.8;
+}
+
+.grid-item li b {
+  font-size: 12px;
+}
+
+.grid-item a:link {              /*class=link no underline*/
+  text-decoration: none;
+  font-size: 13px;
+  color: #767676;
+}
+
+.grid-item a:visited {
+  text-decoration: none;
+}
+
+.grid-item a:hover {
+  text-decoration: underline;
+}
+
+.grid-item a:active {
+  text-decoration: underline;
+}
+
+#side {     /*side border for table*/
+  border-right: 1px solid #767676;
+}
